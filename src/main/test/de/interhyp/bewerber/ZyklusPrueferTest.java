@@ -1,4 +1,4 @@
-package de.interhyp.bewerber;
+package main.test.de.interhyp.bewerber;
 
 import java.util.ArrayList;
 import java.util.List;

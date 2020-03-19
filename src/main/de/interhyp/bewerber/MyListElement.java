@@ -1,4 +1,4 @@
-package de.interhyp.bewerber;
+package main.de.interhyp.bewerber;
 
 public class MyListElement implements IListElement {
 
