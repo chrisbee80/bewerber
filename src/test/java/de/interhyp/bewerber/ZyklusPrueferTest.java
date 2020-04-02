@@ -10,9 +10,14 @@ public class ZyklusPrueferTest {
     ZyklusPruefer pruefer = new ZyklusPruefer();
 
     @Test
-    public void einElement() {
-        MyListElement nurEinElement = new MyListElement(1);
-        pruefer.pruefe(nurEinElement);
+    public void einAndNullElement() {
+        try {
+            MyListElement nurEinElement = new MyListElement(1);
+            pruefer.pruefe(nurEinElement);
+            pruefer.pruefe(null);
+        } catch (Exception e) {
+            // do nothing
+        }
     }
 
     @Test
